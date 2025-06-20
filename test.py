@@ -1,0 +1,1 @@
+curl -Method Post -Uri http://127.0.0.1:5000/predict -Headers @{'Content-Type'='application/json'} -Body '{"features":[-1,-1,1,0,0,-1,1,1,0,0,-1,1]}'
